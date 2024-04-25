@@ -1,0 +1,1898 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AADB5D65-7DA5-439D-B40C-EB5186A89C1E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Cservicios.My.MyApplication</StartupObject>
+    <RootNamespace>Cservicios</RootNamespace>
+    <AssemblyName>Cservicios</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <ManifestCertificateThumbprint>09668A9D846C7BC76B1C6D35035018E561201FF7</ManifestCertificateThumbprint>
+    <ManifestKeyFile>Cservicios_2_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>false</SignManifests>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <PublishUrl>C:\Instalacion Cservicios\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>99</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Cservicios.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Cservicios.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>color_swatch.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DocumentationFile>Cservicios.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DocumentationFile>Cservicios.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DocumentationFile>Cservicios.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DocumentationFile>Cservicios.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualStudio.CommandBars, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Office, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <HintPath>..\packages\Office.12.0.0\lib\net40\Office.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="PigKeyCacheLib, Version=3.5.50.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\PigKeyCacheLib.3.5.50\lib\net40\PigKeyCacheLib.dll</HintPath>
+    </Reference>
+    <Reference Include="PigToolsLiteLib, Version=3.2.38.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\PigToolsLiteLib.3.2.38\lib\net40\PigToolsLiteLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="Microsoft.VisualBasic.PowerPacks" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CServiciosDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CServiciosDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CServiciosDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CServiciosDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CServiciosDataSet10.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CServiciosDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CServiciosDataSet11.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CServiciosDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CServiciosDataSet12.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CServiciosDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CServiciosDataSet13.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CServiciosDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CServiciosDataSet14.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CServiciosDataSet14.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CServiciosDataSet15.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CServiciosDataSet15.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CServiciosDataSet16.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CServiciosDataSet16.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CServiciosDataSet17.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CServiciosDataSet17.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CServiciosDataSet18.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CServiciosDataSet18.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CServiciosDataSet19.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CServiciosDataSet19.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CServiciosDataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CServiciosDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CServiciosDataSet20.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CServiciosDataSet20.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CServiciosDataSet21.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CServiciosDataSet21.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CServiciosDataSet22.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CServiciosDataSet22.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CServiciosDataSet23.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CServiciosDataSet23.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CServiciosDataSet24.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CServiciosDataSet24.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CServiciosDataSet25.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CServiciosDataSet25.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CServiciosDataSet26.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CServiciosDataSet26.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CServiciosDataSet27.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CServiciosDataSet27.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CServiciosDataSet28.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CServiciosDataSet28.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CServiciosDataSet29.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CServiciosDataSet29.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CServiciosDataSet3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CServiciosDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CServiciosDataSet30.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CServiciosDataSet30.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CServiciosDataSet31.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CServiciosDataSet31.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CServiciosDataSet32.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CServiciosDataSet32.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CServiciosDataSet33.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CServiciosDataSet33.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CServiciosDataSet34.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CServiciosDataSet34.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CServiciosDataSet35.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CServiciosDataSet35.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CServiciosDataSet36.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CServiciosDataSet36.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CServiciosDataSet37.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CServiciosDataSet37.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CServiciosDataSet38.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CServiciosDataSet38.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CServiciosDataSet39.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CServiciosDataSet39.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CServiciosDataSet4.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CServiciosDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CServiciosDataSet40.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CServiciosDataSet40.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CServiciosDataSet41.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CServiciosDataSet41.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CServiciosDataSet42.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CServiciosDataSet42.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CServiciosDataSet43.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CServiciosDataSet43.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CServiciosDataSet44.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CServiciosDataSet44.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CServiciosDataSet45.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CServiciosDataSet45.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CServiciosDataSet46.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CServiciosDataSet46.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CServiciosDataSet47.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CServiciosDataSet47.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CServiciosDataSet48.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CServiciosDataSet48.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CServiciosDataSet49.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CServiciosDataSet49.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CServiciosDataSet5.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CServiciosDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CServiciosDataSet50.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CServiciosDataSet50.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CServiciosDataSet51.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CServiciosDataSet51.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CServiciosDataSet52.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CServiciosDataSet52.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CServiciosDataSet53.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CServiciosDataSet53.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CServiciosDataSet54.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CServiciosDataSet54.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CServiciosDataSet55.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CServiciosDataSet55.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CServiciosDataSet56.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CServiciosDataSet56.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CServiciosDataSet6.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CServiciosDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CServiciosDataSet7.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CServiciosDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CServiciosDataSet8.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CServiciosDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CServiciosDataSet9.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CServiciosDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form10.Designer.vb">
+      <DependentUpon>Form10.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form10.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form11.Designer.vb">
+      <DependentUpon>Form11.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form11.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form12.Designer.vb">
+      <DependentUpon>Form12.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form12.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form13.Designer.vb">
+      <DependentUpon>Form13.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form13.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form14.Designer.vb">
+      <DependentUpon>Form14.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form14.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form15.Designer.vb">
+      <DependentUpon>Form15.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form15.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form16.Designer.vb">
+      <DependentUpon>Form16.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form16.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form17.Designer.vb">
+      <DependentUpon>Form17.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form17.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form18.Designer.vb">
+      <DependentUpon>Form18.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form18.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form19.Designer.vb">
+      <DependentUpon>Form19.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form19.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.vb">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form20.Designer.vb">
+      <DependentUpon>Form20.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form20.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form21.Designer.vb">
+      <DependentUpon>Form21.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form21.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form22.Designer.vb">
+      <DependentUpon>Form22.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form22.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form23.Designer.vb">
+      <DependentUpon>Form23.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form23.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form24.Designer.vb">
+      <DependentUpon>Form24.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form24.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form25.Designer.vb">
+      <DependentUpon>Form25.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form25.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form26.Designer.vb">
+      <DependentUpon>Form26.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form26.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form27.Designer.vb">
+      <DependentUpon>Form27.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form27.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form28.Designer.vb">
+      <DependentUpon>Form28.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form28.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form29.Designer.vb">
+      <DependentUpon>Form29.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form29.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.vb">
+      <DependentUpon>Form3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form30.Designer.vb">
+      <DependentUpon>Form30.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form30.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form31.Designer.vb">
+      <DependentUpon>Form31.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form31.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form32.Designer.vb">
+      <DependentUpon>Form32.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form32.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form33.Designer.vb">
+      <DependentUpon>Form33.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form33.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form34.Designer.vb">
+      <DependentUpon>Form34.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form34.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form35.Designer.vb">
+      <DependentUpon>Form35.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form35.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form36.Designer.vb">
+      <DependentUpon>Form36.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form36.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form37.Designer.vb">
+      <DependentUpon>Form37.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form37.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form38.Designer.vb">
+      <DependentUpon>Form38.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form38.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form39.Designer.vb">
+      <DependentUpon>Form39.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form39.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.vb">
+      <DependentUpon>Form4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form40.Designer.vb">
+      <DependentUpon>Form40.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form40.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form41.Designer.vb">
+      <DependentUpon>Form41.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form41.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form42.Designer.vb">
+      <DependentUpon>Form42.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form42.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form43.Designer.vb">
+      <DependentUpon>Form43.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form43.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form44.Designer.vb">
+      <DependentUpon>Form44.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form44.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form45.Designer.vb">
+      <DependentUpon>Form45.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form45.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form46.Designer.vb">
+      <DependentUpon>Form46.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form46.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form47.Designer.vb">
+      <DependentUpon>Form47.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form47.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form48.Designer.vb">
+      <DependentUpon>Form48.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form48.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form49.Designer.vb">
+      <DependentUpon>Form49.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form49.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5.Designer.vb">
+      <DependentUpon>Form5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form50.Designer.vb">
+      <DependentUpon>Form50.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form50.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form51.Designer.vb">
+      <DependentUpon>Form51.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form51.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form52.Designer.vb">
+      <DependentUpon>Form52.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form52.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form53.Designer.vb">
+      <DependentUpon>Form53.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form53.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form54.Designer.vb">
+      <DependentUpon>Form54.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form54.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form55.Designer.vb">
+      <DependentUpon>Form55.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form55.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form56.Designer.vb">
+      <DependentUpon>Form56.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form56.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form57.Designer.vb">
+      <DependentUpon>Form57.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form57.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form58.Designer.vb">
+      <DependentUpon>Form58.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form58.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form59.Designer.vb">
+      <DependentUpon>Form59.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form59.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6.Designer.vb">
+      <DependentUpon>Form6.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form6.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form60.Designer.vb">
+      <DependentUpon>Form60.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form60.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form61.Designer.vb">
+      <DependentUpon>Form61.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form61.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form62.Designer.vb">
+      <DependentUpon>Form62.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form62.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form63.Designer.vb">
+      <DependentUpon>Form63.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form63.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form7.Designer.vb">
+      <DependentUpon>Form7.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form7.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form8.Designer.vb">
+      <DependentUpon>Form8.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form8.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form9.Designer.vb">
+      <DependentUpon>Form9.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form9.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm1.Designer.vb">
+      <DependentUpon>LoginForm1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm2.Designer.vb">
+      <DependentUpon>LoginForm2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form10.resx">
+      <DependentUpon>Form10.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form11.resx">
+      <DependentUpon>Form11.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form12.resx">
+      <DependentUpon>Form12.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form13.resx">
+      <DependentUpon>Form13.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form14.resx">
+      <DependentUpon>Form14.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form15.resx">
+      <DependentUpon>Form15.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form16.resx">
+      <DependentUpon>Form16.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form17.resx">
+      <DependentUpon>Form17.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form18.resx">
+      <DependentUpon>Form18.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form19.resx">
+      <DependentUpon>Form19.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form20.resx">
+      <DependentUpon>Form20.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form21.resx">
+      <DependentUpon>Form21.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form22.resx">
+      <DependentUpon>Form22.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form23.resx">
+      <DependentUpon>Form23.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form24.resx">
+      <DependentUpon>Form24.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form25.resx">
+      <DependentUpon>Form25.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form26.resx">
+      <DependentUpon>Form26.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form27.resx">
+      <DependentUpon>Form27.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form28.resx">
+      <DependentUpon>Form28.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form29.resx">
+      <DependentUpon>Form29.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form30.resx">
+      <DependentUpon>Form30.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form31.resx">
+      <DependentUpon>Form31.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form32.resx">
+      <DependentUpon>Form32.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form33.resx">
+      <DependentUpon>Form33.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form34.resx">
+      <DependentUpon>Form34.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form35.resx">
+      <DependentUpon>Form35.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form36.resx">
+      <DependentUpon>Form36.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form37.resx">
+      <DependentUpon>Form37.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form38.resx">
+      <DependentUpon>Form38.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form39.resx">
+      <DependentUpon>Form39.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form40.resx">
+      <DependentUpon>Form40.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form41.resx">
+      <DependentUpon>Form41.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form42.resx">
+      <DependentUpon>Form42.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form43.resx">
+      <DependentUpon>Form43.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form44.resx">
+      <DependentUpon>Form44.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form45.resx">
+      <DependentUpon>Form45.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form46.resx">
+      <DependentUpon>Form46.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form47.resx">
+      <DependentUpon>Form47.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form48.resx">
+      <DependentUpon>Form48.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form49.resx">
+      <DependentUpon>Form49.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5.resx">
+      <DependentUpon>Form5.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form50.resx">
+      <DependentUpon>Form50.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form51.resx">
+      <DependentUpon>Form51.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form52.resx">
+      <DependentUpon>Form52.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form53.resx">
+      <DependentUpon>Form53.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form54.resx">
+      <DependentUpon>Form54.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form55.resx">
+      <DependentUpon>Form55.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form56.resx">
+      <DependentUpon>Form56.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form57.resx">
+      <DependentUpon>Form57.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form58.resx">
+      <DependentUpon>Form58.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form59.resx">
+      <DependentUpon>Form59.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6.resx">
+      <DependentUpon>Form6.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form60.resx">
+      <DependentUpon>Form60.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form61.resx">
+      <DependentUpon>Form61.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form62.resx">
+      <DependentUpon>Form62.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form63.resx">
+      <DependentUpon>Form63.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form7.resx">
+      <DependentUpon>Form7.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form8.resx">
+      <DependentUpon>Form8.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form9.resx">
+      <DependentUpon>Form9.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm1.resx">
+      <DependentUpon>LoginForm1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm2.resx">
+      <DependentUpon>LoginForm2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="CServiciosDataSet.xsc">
+      <DependentUpon>CServiciosDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CServiciosDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CServiciosDataSet.xss">
+      <DependentUpon>CServiciosDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet1.xsc">
+      <DependentUpon>CServiciosDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CServiciosDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CServiciosDataSet1.xss">
+      <DependentUpon>CServiciosDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet10.xsc">
+      <DependentUpon>CServiciosDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CServiciosDataSet10.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CServiciosDataSet10.xss">
+      <DependentUpon>CServiciosDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet11.xsc">
+      <DependentUpon>CServiciosDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CServiciosDataSet11.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CServiciosDataSet11.xss">
+      <DependentUpon>CServiciosDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet12.xsc">
+      <DependentUpon>CServiciosDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CServiciosDataSet12.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CServiciosDataSet12.xss">
+      <DependentUpon>CServiciosDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet13.xsc">
+      <DependentUpon>CServiciosDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CServiciosDataSet13.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CServiciosDataSet13.xss">
+      <DependentUpon>CServiciosDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet14.xsc">
+      <DependentUpon>CServiciosDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet14.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CServiciosDataSet14.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CServiciosDataSet14.xss">
+      <DependentUpon>CServiciosDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet15.xsc">
+      <DependentUpon>CServiciosDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet15.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CServiciosDataSet15.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CServiciosDataSet15.xss">
+      <DependentUpon>CServiciosDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet16.xsc">
+      <DependentUpon>CServiciosDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet16.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CServiciosDataSet16.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CServiciosDataSet16.xss">
+      <DependentUpon>CServiciosDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet17.xsc">
+      <DependentUpon>CServiciosDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet17.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CServiciosDataSet17.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CServiciosDataSet17.xss">
+      <DependentUpon>CServiciosDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet18.xsc">
+      <DependentUpon>CServiciosDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet18.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CServiciosDataSet18.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CServiciosDataSet18.xss">
+      <DependentUpon>CServiciosDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet19.xsc">
+      <DependentUpon>CServiciosDataSet19.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet19.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CServiciosDataSet19.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CServiciosDataSet19.xss">
+      <DependentUpon>CServiciosDataSet19.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet2.xsc">
+      <DependentUpon>CServiciosDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CServiciosDataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CServiciosDataSet2.xss">
+      <DependentUpon>CServiciosDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet20.xsc">
+      <DependentUpon>CServiciosDataSet20.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet20.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CServiciosDataSet20.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CServiciosDataSet20.xss">
+      <DependentUpon>CServiciosDataSet20.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet21.xsc">
+      <DependentUpon>CServiciosDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet21.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CServiciosDataSet21.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CServiciosDataSet21.xss">
+      <DependentUpon>CServiciosDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet22.xsc">
+      <DependentUpon>CServiciosDataSet22.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet22.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CServiciosDataSet22.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CServiciosDataSet22.xss">
+      <DependentUpon>CServiciosDataSet22.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet23.xsc">
+      <DependentUpon>CServiciosDataSet23.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet23.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CServiciosDataSet23.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CServiciosDataSet23.xss">
+      <DependentUpon>CServiciosDataSet23.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet24.xsc">
+      <DependentUpon>CServiciosDataSet24.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet24.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CServiciosDataSet24.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CServiciosDataSet24.xss">
+      <DependentUpon>CServiciosDataSet24.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet25.xsc">
+      <DependentUpon>CServiciosDataSet25.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet25.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CServiciosDataSet25.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CServiciosDataSet25.xss">
+      <DependentUpon>CServiciosDataSet25.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet26.xsc">
+      <DependentUpon>CServiciosDataSet26.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet26.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CServiciosDataSet26.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CServiciosDataSet26.xss">
+      <DependentUpon>CServiciosDataSet26.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet27.xsc">
+      <DependentUpon>CServiciosDataSet27.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet27.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CServiciosDataSet27.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CServiciosDataSet27.xss">
+      <DependentUpon>CServiciosDataSet27.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet28.xsc">
+      <DependentUpon>CServiciosDataSet28.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet28.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CServiciosDataSet28.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CServiciosDataSet28.xss">
+      <DependentUpon>CServiciosDataSet28.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet29.xsc">
+      <DependentUpon>CServiciosDataSet29.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet29.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CServiciosDataSet29.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CServiciosDataSet29.xss">
+      <DependentUpon>CServiciosDataSet29.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet3.xsc">
+      <DependentUpon>CServiciosDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CServiciosDataSet3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CServiciosDataSet3.xss">
+      <DependentUpon>CServiciosDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet30.xsc">
+      <DependentUpon>CServiciosDataSet30.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet30.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CServiciosDataSet30.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CServiciosDataSet30.xss">
+      <DependentUpon>CServiciosDataSet30.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet31.xsc">
+      <DependentUpon>CServiciosDataSet31.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet31.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CServiciosDataSet31.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CServiciosDataSet31.xss">
+      <DependentUpon>CServiciosDataSet31.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet32.xsc">
+      <DependentUpon>CServiciosDataSet32.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet32.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CServiciosDataSet32.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CServiciosDataSet32.xss">
+      <DependentUpon>CServiciosDataSet32.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet33.xsc">
+      <DependentUpon>CServiciosDataSet33.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet33.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CServiciosDataSet33.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CServiciosDataSet33.xss">
+      <DependentUpon>CServiciosDataSet33.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet34.xsc">
+      <DependentUpon>CServiciosDataSet34.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet34.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CServiciosDataSet34.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CServiciosDataSet34.xss">
+      <DependentUpon>CServiciosDataSet34.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet35.xsc">
+      <DependentUpon>CServiciosDataSet35.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet35.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CServiciosDataSet35.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CServiciosDataSet35.xss">
+      <DependentUpon>CServiciosDataSet35.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet36.xsc">
+      <DependentUpon>CServiciosDataSet36.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet36.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CServiciosDataSet36.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CServiciosDataSet36.xss">
+      <DependentUpon>CServiciosDataSet36.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet37.xsc">
+      <DependentUpon>CServiciosDataSet37.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet37.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CServiciosDataSet37.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CServiciosDataSet37.xss">
+      <DependentUpon>CServiciosDataSet37.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet38.xsc">
+      <DependentUpon>CServiciosDataSet38.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet38.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CServiciosDataSet38.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CServiciosDataSet38.xss">
+      <DependentUpon>CServiciosDataSet38.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet39.xsc">
+      <DependentUpon>CServiciosDataSet39.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet39.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CServiciosDataSet39.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CServiciosDataSet39.xss">
+      <DependentUpon>CServiciosDataSet39.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet4.xsc">
+      <DependentUpon>CServiciosDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CServiciosDataSet4.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CServiciosDataSet4.xss">
+      <DependentUpon>CServiciosDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet40.xsc">
+      <DependentUpon>CServiciosDataSet40.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet40.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CServiciosDataSet40.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CServiciosDataSet40.xss">
+      <DependentUpon>CServiciosDataSet40.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet41.xsc">
+      <DependentUpon>CServiciosDataSet41.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet41.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CServiciosDataSet41.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CServiciosDataSet41.xss">
+      <DependentUpon>CServiciosDataSet41.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet42.xsc">
+      <DependentUpon>CServiciosDataSet42.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet42.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CServiciosDataSet42.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CServiciosDataSet42.xss">
+      <DependentUpon>CServiciosDataSet42.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet43.xsc">
+      <DependentUpon>CServiciosDataSet43.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet43.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CServiciosDataSet43.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CServiciosDataSet43.xss">
+      <DependentUpon>CServiciosDataSet43.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet44.xsc">
+      <DependentUpon>CServiciosDataSet44.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet44.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CServiciosDataSet44.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CServiciosDataSet44.xss">
+      <DependentUpon>CServiciosDataSet44.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet45.xsc">
+      <DependentUpon>CServiciosDataSet45.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet45.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CServiciosDataSet45.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CServiciosDataSet45.xss">
+      <DependentUpon>CServiciosDataSet45.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet46.xsc">
+      <DependentUpon>CServiciosDataSet46.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet46.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CServiciosDataSet46.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CServiciosDataSet46.xss">
+      <DependentUpon>CServiciosDataSet46.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet47.xsc">
+      <DependentUpon>CServiciosDataSet47.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet47.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CServiciosDataSet47.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CServiciosDataSet47.xss">
+      <DependentUpon>CServiciosDataSet47.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet48.xsc">
+      <DependentUpon>CServiciosDataSet48.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet48.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CServiciosDataSet48.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CServiciosDataSet48.xss">
+      <DependentUpon>CServiciosDataSet48.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet49.xsc">
+      <DependentUpon>CServiciosDataSet49.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet49.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CServiciosDataSet49.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CServiciosDataSet49.xss">
+      <DependentUpon>CServiciosDataSet49.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet50.xsc">
+      <DependentUpon>CServiciosDataSet50.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet50.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CServiciosDataSet50.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CServiciosDataSet50.xss">
+      <DependentUpon>CServiciosDataSet50.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet51.xsc">
+      <DependentUpon>CServiciosDataSet51.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet51.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CServiciosDataSet51.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CServiciosDataSet51.xss">
+      <DependentUpon>CServiciosDataSet51.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet52.xsc">
+      <DependentUpon>CServiciosDataSet52.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet52.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CServiciosDataSet52.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CServiciosDataSet52.xss">
+      <DependentUpon>CServiciosDataSet52.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet53.xsc">
+      <DependentUpon>CServiciosDataSet53.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet53.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CServiciosDataSet53.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CServiciosDataSet53.xss">
+      <DependentUpon>CServiciosDataSet53.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet54.xsc">
+      <DependentUpon>CServiciosDataSet54.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet54.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CServiciosDataSet54.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CServiciosDataSet54.xss">
+      <DependentUpon>CServiciosDataSet54.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet55.xsc">
+      <DependentUpon>CServiciosDataSet55.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet55.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CServiciosDataSet55.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CServiciosDataSet55.xss">
+      <DependentUpon>CServiciosDataSet55.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet56.xsc">
+      <DependentUpon>CServiciosDataSet56.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet56.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CServiciosDataSet56.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CServiciosDataSet56.xss">
+      <DependentUpon>CServiciosDataSet56.xsd</DependentUpon>
+    </None>
+    <None Include="Cservicios_1_TemporaryKey.pfx" />
+    <None Include="Cservicios_2_TemporaryKey.pfx" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AccessibilityCplAdminLib">
+      <Guid>{714DD4F6-7676-4BDE-925A-C2FEC2073F36}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>5</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Access.Dao">
+      <Guid>{4AC9E1DA-5BAD-4AC7-86E3-24F4CDCECA28}</Guid>
+      <VersionMajor>12</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Access1">
+      <Guid>{4AFFC9A0-5F99-101B-AF4E-00AA003F0F07}</Guid>
+      <VersionMajor>9</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Word">
+      <Guid>{00020905-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>8</VersionMajor>
+      <VersionMinor>5</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Resources\Tulips.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CServiciosDataSet5.xsc">
+      <DependentUpon>CServiciosDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CServiciosDataSet5.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CServiciosDataSet5.xss">
+      <DependentUpon>CServiciosDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet6.xsc">
+      <DependentUpon>CServiciosDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CServiciosDataSet6.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CServiciosDataSet6.xss">
+      <DependentUpon>CServiciosDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\Chrysanthemum.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CServiciosDataSet7.xsc">
+      <DependentUpon>CServiciosDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CServiciosDataSet7.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CServiciosDataSet7.xss">
+      <DependentUpon>CServiciosDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet8.xsc">
+      <DependentUpon>CServiciosDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CServiciosDataSet8.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CServiciosDataSet8.xss">
+      <DependentUpon>CServiciosDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet9.xsc">
+      <DependentUpon>CServiciosDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="CServiciosDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CServiciosDataSet9.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CServiciosDataSet9.xss">
+      <DependentUpon>CServiciosDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Cservicios_TemporaryKey.pfx" />
+    <None Include="My Project\app.manifest" />
+    <None Include="Resources\find.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\find1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\accept.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_undo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="color_swatch.ico" />
+    <None Include="Resources\Logo Factor1.png" />
+    <None Include="Resources\money.ico" />
+    <None Include="Resources\cart_add.ico" />
+    <None Include="Resources\kfind_32x32-32.ico" />
+    <None Include="Resources\Logo Factor.png" />
+    <None Include="Resources\wallpaper7.jpg" />
+    <None Include="Resources\printer.ico" />
+    <None Include="Resources\arrow_refresh.ico" />
+    <None Include="Resources\pencil.ico" />
+    <None Include="Resources\bullet_wrench.ico" />
+    <None Include="Resources\calendar_edit1.ico" />
+    <None Include="Resources\calendar_edit.ico" />
+    <None Include="Resources\cancel.ico" />
+    <None Include="Resources\accept1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="Microsoft.Vbe.Interop">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.VisualBasic.PowerPacks.Vs">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="office">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
